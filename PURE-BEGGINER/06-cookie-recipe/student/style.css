@@ -1,0 +1,74 @@
+/* CHALLENGE 02 — basic CSS */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #FFEBD3;
+  color: #513829;
+  margin: 0;
+  padding: 20px;
+}
+.recipe {
+  background-color: white;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+  border: 2px solid #e5aa6c;
+border-radius:  30px;
+
+}
+img { width: 100%; }
+/* TODO: Style h1, h2, lists, info bar, tip and footer */
+.top-note{
+color:#c47b49;
+font-size: 12px;
+font-weight:bold;
+text-transform: uppercase;
+}
+h1{
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 38px;
+color: #513829;
+margin-bottom: 12px;
+}
+.intro{
+font: size 16px;
+color:#8b654d;
+
+}
+.info{
+background-color:  #fbe8ca;
+border-radius:30px;
+height: 20px;
+padding:14px 10px;
+text-align: center;
+margin-top:28px;
+
+}
+h2{
+color: #c47b49;
+font-family:Georgia, 'Times New Roman', Times, serif;
+border-bottom: 1px solid #e5aa6c;
+padding-bottom:  10px;
+margin-bottom: 20px;
+}
+li{
+margin-bottom:14px;
+line: height 1.5;
+
+
+}
+.tip{
+  background-color:#fbe5bc;
+  padding:7px 16px;
+  border-radius: 5px;
+  border-left:6px solid #e4773f;
+  margin-top:20px;
+
+}
+footer{
+  margin-top:30px ;
+color:#c47b49;
+text-align: center;
+font-size: small;
+
+}
